@@ -21,6 +21,10 @@ To use this template, your computer needs:
 
 - [NodeJS](https://nodejs.org/en/) (Version 6 only, Tested with 6.11.4)
 - [Git](https://git-scm.com/)
+- [Sass](https://sass-lang.com)
+- [ESLint](https://eslint.org)
+- [Prettier](https://prettier.io/)
+- [Gulp](https://gulpjs.com/)
 
 ### Setup
 
