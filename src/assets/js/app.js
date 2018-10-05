@@ -1,4 +1,3 @@
-// import $ from 'jquery';
 // import whatInput from 'what-input';
 
 // import Foundation from 'foundation-sites';
@@ -8,8 +7,6 @@ import './lib/foundation-explicit-pieces';
 
 // import 'tablesaw/dist/tablesaw.jquery';
 import libs from './lib/dependancies';
-
-// window.$ = $;
 
 window.libs = libs;
 
