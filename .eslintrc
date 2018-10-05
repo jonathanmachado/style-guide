@@ -1,0 +1,14 @@
+{
+  "extends": ["airbnb-base", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "func-names": 0,
+    "no-unused-vars": 0,
+    "quotes": ["error", "single"]
+  },
+  "env": {
+    "browser": true,
+    "jquery": true
+  },
+  "parser": "babel-eslint"
+}

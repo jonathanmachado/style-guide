@@ -3,14 +3,14 @@ PORT: 8000
 
 # Autoprefixer will make sure your CSS works with these browsers
 COMPATIBILITY:
-  - "last 2 versions"
-  - "ie >= 9"
-  - "ios >= 7"
+  - 'last 2 versions'
+  - 'ie >= 9'
+  - 'ios >= 7'
 
 # UnCSS will use these settings
 UNCSS_OPTIONS:
   html:
-    - "src/**/*.html"
+    - 'src/**/*.html'
   ignore:
     - !!js/regexp .foundation-mq
     - !!js/regexp ^\.is-.*
@@ -18,15 +18,18 @@ UNCSS_OPTIONS:
 # Gulp will reference these paths when it copies files
 PATHS:
   # Path to dist folder
-  dist: "dist"  
+  dist: 'dist'
   # Paths to static assets that aren't images, CSS, or JavaScript
   assets:
-    - "src/assets/**/*"
-    - "!src/assets/{img,js,scss}/**/*"
+    - 'src/assets/**/*'
+    - '!src/assets/{img,js,scss}/**/*'
   # Paths to Sass libraries, which can then be loaded with @import
   sass:
-    - "node_modules/foundation-sites/scss"
-    - "node_modules/motion-ui/src"
+    - 'node_modules/foundation-sites/scss'
+    - 'node_modules/motion-ui/src'
   # Paths to JavaScript entry points for webpack to bundle modules
   entries:
-    - "src/assets/js/*.js"
+    - 'src/assets/js/*.js'
+  entriesvendor:
+    - 'node_modules/jquery/dist/jquery.min.js'
+    - 'node_modules/moment/min/moment.min.js'
